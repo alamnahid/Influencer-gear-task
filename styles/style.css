@@ -293,3 +293,137 @@ line-height: 1.5rem; /* 171.429% */
     background-color: #18191F;
     cursor: pointer;
   }
+
+
+
+
+  /* //responsive */
+
+  @media screen and (max-width: 576px) {
+    
+  /* header section  */
+  .header-container{
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  nav{
+    display: none;
+  }
+  .header-title{
+    text-align: center;
+  }
+
+  /* cover container  */
+.cover-container{
+    flex-direction: column-reverse;
+    width: 95%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cover-title{
+  width: 25.25rem;
+  height: 4.875rem;
+text-align: center;
+margin: 5px auto;
+font-size: 1.75rem;
+line-height: 2.375rem; /* 134.615% */
+}
+.cover-description{
+  width: 20.0625rem;
+  height: 4.0625rem;
+text-align: center;
+font-size: 0.875rem;
+margin: 0 auto;
+}
+.btn{
+  text-align: center;
+  margin-top: 10px;
+}
+  .background1{
+    width: 16.0625rem;
+height: 16.0625rem;
+  }
+
+  .background2{
+    width: 11.23713rem;
+    height: 11.23713rem;
+  }
+  .background2 img{
+    width: 12.625rem;
+    height: 11.875rem;
+  }
+
+  /* sponsor section style  */
+  .sponsor-container{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    
+  }
+  .sponsor-container img{
+    width: 40px;
+
+  }
+
+
+  /* <!-- popular collection section  --> */
+.popular-collection{
+    width: 90%;
+    margin: 0 auto;
+}
+  .popular-heading{
+margin-top: 3rem;
+  }
+  .popular-container{
+width: 90%;
+grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .popular-card{
+    width: 18.5625rem;
+    height: 29.75rem;
+  }
+
+  .popular-card img{
+        width: 16.75rem;
+
+  }
+
+
+  /* feature section style  */
+
+  .feature-container{
+    width: 90%;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+  }
+  .feature-title{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .feature-description{
+    width: 18.3125rem;
+font-size: 0.7rem;
+text-align: center;
+margin: 0 auto;
+  }
+
+
+  .fbtn{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .feature-container img{
+    width: 18.6875rem;
+height: 11.75rem;
+  }
+  }
