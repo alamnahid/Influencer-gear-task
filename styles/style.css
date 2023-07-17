@@ -1,0 +1,295 @@
+/* font family imported */
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Merriweather&family=Montserrat&family=Open+Sans:ital,wght@0,800;1,800&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@400;500;600;700;800&family=Sacramento&family=Work+Sans:wght@400;500;700;800&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+
+  /* header section  */
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .header-title{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  a{
+    text-decoration: none;
+        color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    
+  }
+  a:hover{
+    color: tomato;
+  }
+  nav ul li{
+    list-style: none;
+  }
+  nav ul{
+    display: flex;
+    gap: 2.12rem;
+    
+  }
+  nav ul li img{
+    width: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* cover container  */
+.cover-container{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cover-title{
+    width: 36.375rem;
+height: 8.3125rem;
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 3.25rem;
+font-weight: 700;
+line-height: 4.375rem; /* 134.615% */
+}
+.cover-description{
+    width: 31.5625rem;
+height: 3.80625rem;
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+margin: 1rem 0;
+}
+.cover-button{
+padding: 0.625rem 1.5rem;
+gap: 0.5rem;
+border-radius: 2.5625rem;
+background: #E02C6D;
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+border: 0;
+}
+
+
+
+  .background1{
+    width: 29.6875rem;
+height: 29.6875rem;
+flex-shrink: 0; 
+border-radius: 29.6875rem;
+border: 3px solid #F1E4FF;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .background2{
+    width: 20.76906rem;
+height: 20.76906rem;
+border-radius: 20.76906rem;
+background: #F1E4FF;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .background2 img{
+    width: 27.5rem;
+height: 25.875rem;
+  }
+
+  /* sponsor section style  */
+  .sponsor-container{
+    margin-top: 6rem;
+    width: 85%;
+    height: 5.625rem;
+    border-top: 0.1px solid #7878851e;
+    border-bottom: 0.1px solid #7878851e;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  /* <!-- popular collection section  --> */
+.popular-collection{
+    width: 75%;
+    margin: 0 auto;
+}
+  .popular-heading{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 1.75rem;
+font-weight: 600;
+line-height: 4.375rem; /* 250% */
+text-align: center;
+margin-top: 6rem;
+  }
+  .popular-container{
+width: 100%;
+margin: 4rem auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-items: center;
+align-items: center;
+gap: 20px;
+
+  }
+
+  .popular-card{
+    width: 20.5625rem;
+height: 29.75rem;
+border-radius: 0.3125rem;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+padding-left: 1rem;
+  }
+
+  .popular-card img{
+        width: 18.75rem;
+    height: 16rem;
+    border-radius: 0.3125rem;
+    padding-left: 0.34rem;
+    margin-top: 1rem;
+
+  }
+  .card-heading{
+    color: #18191F;
+font-family: Poppins;
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 2.5rem; /* 142.857% */
+margin: 1rem 0;
+  }
+  .card-price{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 150%; /* 2.25rem */
+margin-bottom: 0.5rem;
+  }
+  .checked{
+    color:  #FB8200;
+  }
+  .unchecked{
+    color: #8f765c86;
+  }
+  .rate{
+    margin-left: 0.3rem;
+  }
+  .card-description{
+        width: 12.25rem;
+        color: #787885;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%; /* 1.25125rem */
+    letter-spacing: 0.01575rem;
+    margin-top: 0.5rem;
+  }
+  .seemore{
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+text-align: right;
+margin-right: 50px;
+cursor: pointer;
+  }
+
+
+  /* feature section style  */
+
+  .feature-container{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+
+  }
+  .feature-title{
+    color: #0A0826;
+font-family: Poppins;
+font-size: 2.375rem;
+font-weight: 700;
+line-height: 3.75rem; /* 157.895% */
+  }
+
+  .feature-description{
+    width: 31.3125rem;
+height: 5.5rem;
+color: #6C6C6C;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.75rem; /* 175% */
+margin-top: 1rem;
+  }
+  .feature-button{
+padding: 0.625rem 1.5rem;
+gap: 0.5rem;
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+padding: 0.62rem 1.5rem;
+background: #E02C6D;
+border: 0;
+margin-top: 1rem;
+  }
+
+  footer{
+    height: 14.9375rem;
+    background: #0A0826;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-heading{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+  }
+  .copyright{
+    color: #D9DBE1;
+font-family: Manrope;
+font-size: 0.875rem;
+font-weight: 700;
+line-height: 1.5rem; /* 171.429% */
+  }
+  .right{
+    color: #D9DBE1;
+font-family: Manrope;
+font-size: 0.875rem;
+font-weight: 700;
+line-height: 1.5rem; /* 171.429% */
+  }
+  button:hover{
+    background-color: #18191F;
+    cursor: pointer;
+  }
